@@ -1,4 +1,3 @@
-import Navbar from "@/components/layouts/navbar";
 import type { Metadata } from "next";
 
 import "../globals.css";
@@ -13,10 +12,5 @@ export default function Layout({
 }: Readonly<{
     children: React.ReactNode;
 }>) {
-    return (
-        <div className="w-2/3 mx-auto">
-            <Navbar />
-            {children}
-        </div>
-    );
+    return children;
 }

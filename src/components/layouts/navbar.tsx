@@ -5,7 +5,7 @@ import { Button } from "../ui/button";
 
 const Navbar = () => {
     return (
-        <nav className="mb-10">
+        <nav className="w-[90%] md:w-4/5 mx-auto">
             <div className="flex justify-between items-center w-full">
                 <Link href="/">
                     <Image src="/uway.png" alt="Uway Logo" width={125} height={125} />
