@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 import Navbar from "./layouts/Navbar";
-import { Button } from "./ui/button";
+import { Button } from "./ui/Button";
 
 export default function Hero() {
     return (
@@ -12,7 +12,7 @@ export default function Hero() {
                 <div className="lg:w-3/4 max-w-2xl mx-auto text-center lg:text-left">
                     <h1 className="text-foreground text-5xl font-bold mb-6">Uway - Dein smarter Begleiter am Steuer</h1>
                     <p className="text-foregroundSecondary text-lg mb-10">
-                        Mit Uway erhältst du Blitzerwarnungen, Echtzeit-Verkehrsinfos, aktuelle Tankstellenpreise und
+                        Mit Uway erhältst du Blitzerwarnungen, Echtzeit-Verkehrsdaten, aktuelle Tankstellenpreise und
                         eine optimierte Navigation - alles, was du brauchst, um stressfrei ans Ziel zu kommen.
                     </p>
 

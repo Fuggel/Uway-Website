@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { useEffect, useState } from "react";
 
-import { Button } from "../ui/button";
+import { Button } from "../ui/Button";
 
 const ScrollToTop = () => {
     const [isVisible, setIsVisible] = useState(false);

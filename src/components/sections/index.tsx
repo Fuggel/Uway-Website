@@ -12,12 +12,24 @@ export default function Sections() {
 
     return (
         <>
-            <div className="sticky top-0 flex justify-center gap-10 py-4 border-dotted border-foreground border-y-[1px]">
-                <Link href="#features" className={featuresInView ? "text-primary" : "text-foreground"}>
+            <div className="sticky top-0 flex justify-center gap-10 py-4 bg-primary h-[55px] z-[999999]">
+                <Link
+                    href="#features"
+                    className={
+                        featuresInView
+                            ? 'after:content-[" "] after:w-0.5 after:h-5 after:bg-foreground'
+                            : "text-gray-200"
+                    }
+                >
                     Features
                 </Link>
 
-                <Link href="#faq" className={faqInView ? "text-primary" : "text-foreground"}>
+                <Link
+                    href="#faq"
+                    className={
+                        faqInView ? 'after:content-[" "] after:h-[2px] after:bg-white after:block' : "text-gray-200"
+                    }
+                >
                     Häufig gestellte Fragen
                 </Link>
             </div>
