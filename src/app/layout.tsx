@@ -1,3 +1,4 @@
+import ScrollToTop from "@/components/layouts/scrollToTop";
 import { latoBlack, latoBold, latoRegular } from "@/constants/fonts";
 import type { Metadata } from "next";
 
@@ -18,6 +19,7 @@ export default function RootLayout({
         <html lang="en" suppressHydrationWarning>
             <body className={`${latoBlack.variable} ${latoBold.variable} ${latoRegular.variable} antialiased`}>
                 {children}
+                <ScrollToTop />
             </body>
         </html>
     );
