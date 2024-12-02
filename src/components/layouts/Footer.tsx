@@ -7,10 +7,10 @@ export default function Footer() {
             <div className="container mx-auto flex flex-wrap justify-evenly items-center px-4 gap-6">
                 <div className="order-1 flex space-x-4">
                     <Link href="mailto:info@uwaygo.com" rel="noopener noreferrer">
-                        <FaEnvelope className="text-2xl hover:text-secondary" />
+                        <FaEnvelope className="text-2xl hover:text-secondary transition-all duration-200 ease-in-out" />
                     </Link>
                     <Link href="https://www.instagram.com/uwaygo/" target="_blank" rel="noopener noreferrer">
-                        <FaInstagram className="text-2xl hover:text-secondary" />
+                        <FaInstagram className="text-2xl hover:text-secondary transition-all duration-200 ease-in-out" />
                     </Link>
                 </div>
 
@@ -19,13 +19,13 @@ export default function Footer() {
                 </div>
 
                 <div className="order-2 sm:order-3 flex space-x-4">
-                    <Link href="/datenschutz" className="hover:text-secondary">
+                    <Link href="/datenschutz" className="hover:text-secondary transition-all duration-200 ease-in-out">
                         Datenschutz
                     </Link>
 
                     <span>|</span>
 
-                    <Link href="/impressum" className="hover:text-secondary">
+                    <Link href="/impressum" className="hover:text-secondary transition-all duration-200 ease-in-out">
                         Impressum
                     </Link>
                 </div>
