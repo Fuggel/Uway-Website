@@ -3,7 +3,7 @@ import { FaEnvelope, FaInstagram } from "react-icons/fa";
 
 export default function Footer() {
     return (
-        <footer className="border-t-primary border-t-8 py-8">
+        <footer className="border-t-primary border-t-4 py-8">
             <div className="container mx-auto flex flex-wrap justify-evenly items-center px-4 gap-6">
                 <div className="order-1 flex space-x-4">
                     <Link href="mailto:info@uwaygo.com" rel="noopener noreferrer">
