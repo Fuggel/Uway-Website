@@ -8,8 +8,10 @@ export default function Blurring({ children }: BlurringProps) {
             <div
                 className="absolute bg-primary opacity-60 blur-[60px]"
                 style={{
-                    width: "400px",
-                    height: "350px",
+                    width: "100%",
+                    height: "100%",
+                    maxWidth: "400px",
+                    maxHeight: "350px",
                     top: "50%",
                     left: "50%",
                     transform: "translate(-50%, -50%)",

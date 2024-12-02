@@ -16,7 +16,7 @@ export default function Sections() {
                 <Link
                     href="#features"
                     className={
-                        featuresInView
+                        featuresInView && !faqInView
                             ? 'after:content-[" "] after:h-[2px] after:bg-white after:block'
                             : "text-gray-200"
                     }
@@ -27,7 +27,9 @@ export default function Sections() {
                 <Link
                     href="#faq"
                     className={
-                        faqInView ? 'after:content-[" "] after:h-[2px] after:bg-white after:block' : "text-gray-200"
+                        faqInView && !featuresInView
+                            ? 'after:content-[" "] after:h-[2px] after:bg-white after:block'
+                            : "text-gray-200"
                     }
                 >
                     Häufig gestellte Fragen

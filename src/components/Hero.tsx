@@ -48,7 +48,7 @@ export default function Hero() {
                 </div>
 
                 <div className="mx-auto mb-10">
-                    <Image priority src="/hero-app-screenshots.png" alt="Uway Screenshots" width={500} height={700} />
+                    <Image src="/hero-app-screenshots.png" alt="Uway Screenshots" width={500} height={700} />
                 </div>
             </div>
         </section>
