@@ -1,4 +1,5 @@
 import Hero from "@/components/Hero";
+import Ready from "@/components/Ready";
 import Sections from "@/components/sections";
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
         <div className="min-h-screen">
             <Hero />
             <Sections />
+            <Ready />
         </div>
     );
 }
