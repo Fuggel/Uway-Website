@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { FaAndroid, FaApple } from "react-icons/fa";
 
 import { Button } from "./ui/Button";
 
@@ -22,7 +22,7 @@ export default function Ready() {
                         size="lg"
                         className="w-40 rounded-3xl text-md font-bold border-foreground bg-primary hover:text-primary-foreground hover:bg-primary-dark"
                     >
-                        <Image src="/apple.svg" alt="App Store Badge" width={15} height={15} />
+                        <FaApple />
                         iOS
                     </Button>
 
@@ -31,7 +31,7 @@ export default function Ready() {
                         size="lg"
                         className="w-40 rounded-3xl text-md font-bold border-foreground bg-primary hover:text-primary-foreground hover:bg-primary-dark"
                     >
-                        <Image src="/android.svg" alt="Google Play Badge" width={20} height={20} />
+                        <FaAndroid />
                         Android
                     </Button>
                 </div>

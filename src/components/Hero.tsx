@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { FaAndroid, FaApple } from "react-icons/fa";
 
 import Navbar from "./layouts/Navbar";
 import { Button } from "./ui/Button";
@@ -31,7 +32,7 @@ export default function Hero() {
                                 size="lg"
                                 className="w-40 rounded-3xl text-md font-bold border-foreground bg-transparent hover:bg-primary hover:text-primary-foreground"
                             >
-                                <Image src="/apple.svg" alt="App Store Badge" width={15} height={15} />
+                                <FaApple />
                                 iOS
                             </Button>
 
@@ -40,7 +41,7 @@ export default function Hero() {
                                 size="lg"
                                 className="w-40 rounded-3xl text-md font-bold border-foreground bg-transparent hover:bg-primary hover:text-primary-foreground"
                             >
-                                <Image src="/android.svg" alt="Google Play Badge" width={20} height={20} />
+                                <FaAndroid />
                                 Android
                             </Button>
                         </div>
