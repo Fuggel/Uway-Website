@@ -21,7 +21,13 @@ export default function Features({ ref }: FeaturesProps) {
                 <div className="flex flex-col gap-16">
                     <div className="flex flex-col lg:flex-row items-center gap-8">
                         <Blurring>
-                            <Image src="/incident-info.png" alt="Verkehrsdaten" width={350} height={350} />
+                            <Image
+                                src="/incident-info.png"
+                                alt="Verkehrsdaten"
+                                quality={100}
+                                width={350}
+                                height={350}
+                            />
                         </Blurring>
 
                         <div className="text-center lg:text-left lg:w-1/2">
@@ -36,7 +42,13 @@ export default function Features({ ref }: FeaturesProps) {
 
                     <div className="flex flex-col lg:flex-row-reverse items-center gap-8">
                         <Blurring>
-                            <Image src="/speed-camera-info.png" alt="Blitzerwarnungen" width={350} height={350} />
+                            <Image
+                                src="/speed-camera-info.png"
+                                alt="Blitzerwarnungen"
+                                quality={100}
+                                width={350}
+                                height={350}
+                            />
                         </Blurring>
 
                         <div className="text-center lg:text-left lg:w-1/2">
@@ -50,7 +62,13 @@ export default function Features({ ref }: FeaturesProps) {
 
                     <div className="flex flex-col lg:flex-row items-center gap-8">
                         <Blurring>
-                            <Image src="/gas-station-info.png" alt="Tankstellenpreise" width={350} height={350} />
+                            <Image
+                                src="/gas-station-info.png"
+                                alt="Tankstellenpreise"
+                                quality={100}
+                                width={350}
+                                height={350}
+                            />
                         </Blurring>
 
                         <div className="text-center lg:text-left lg:w-1/2">

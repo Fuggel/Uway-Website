@@ -5,10 +5,10 @@ import { Button } from "../ui/Button";
 
 export default function Navbar() {
     return (
-        <nav className="w-[90%] md:w-4/5 mx-auto mb-10">
+        <nav className="w-[90%] md:w-4/5 mx-auto mb-10 pt-6">
             <div className="flex justify-between items-center w-full">
                 <Link href="/">
-                    <Image src="/uway.png" alt="Uway Logo" width={125} height={125} />
+                    <Image src="/uway.png" alt="Uway Logo" width={125} height={125} quality={100} />
                 </Link>
 
                 <Link href="/testing">

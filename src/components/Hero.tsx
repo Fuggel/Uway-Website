@@ -11,7 +11,7 @@ export default function Hero() {
 
             <div className="flex flex-col lg:flex-row items-center justify-between gap-10 w-[90%] md:w-4/5 mx-auto">
                 <div className="lg:w-3/4 max-w-2xl mx-auto text-center lg:text-left">
-                    <h1 className="text-foreground text-5xl font-bold mb-6">Uway - Dein smarter Begleiter am Steuer</h1>
+                    <h1 className="text-foreground text-4xl font-bold mb-6">Uway - Dein smarter Begleiter am Steuer</h1>
                     <p className="text-foregroundSecondary text-lg mb-10">
                         Mit Uway erhältst du Blitzerwarnungen, Echtzeit-Verkehrsdaten, aktuelle Tankstellenpreise und
                         eine optimierte Navigation - alles, was du brauchst, um stressfrei ans Ziel zu kommen.
@@ -49,7 +49,13 @@ export default function Hero() {
                 </div>
 
                 <div className="mx-auto mb-10">
-                    <Image src="/hero-app-screenshots.png" alt="Uway Screenshots" width={500} height={700} />
+                    <Image
+                        src="/hero-app-screenshots.png"
+                        alt="Uway Screenshots"
+                        width={500}
+                        height={700}
+                        quality={100}
+                    />
                 </div>
             </div>
         </section>
