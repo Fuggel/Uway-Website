@@ -8,16 +8,14 @@ interface FeaturesProps {
 
 export default function Features({ ref }: FeaturesProps) {
     return (
-        <section id="features" ref={ref} className="my-10 px-4">
+        <section id="features" ref={ref} className="my-10 px-4 scroll-mt-[65px]">
             <div className="w-full max-w-6xl mx-auto">
-                <div className="flex flex-col items-center gap-4 mx-auto mb-20">
-                    <div className="mb-10">
-                        <h2 className="text-3xl font-bold text-center mb-2">Features</h2>
-                        <p className="text-foregroundSecondary text-center">
-                            Von Echtzeit-Daten bis hin zu personalisierten Einstellungen - <br />
-                            entdecke innovative Features, die jede Fahrt komfortabler machen.
-                        </p>
-                    </div>
+                <div className="flex flex-col items-center gap-4 mx-auto mb-10">
+                    <h2 className="text-3xl font-bold text-center">Features</h2>
+                    <p className="text-foregroundSecondary text-center">
+                        Von Echtzeit-Daten bis hin zu personalisierten Einstellungen - <br />
+                        entdecke innovative Features, die jede Fahrt komfortabler machen.
+                    </p>
                 </div>
 
                 <div className="flex flex-col gap-16">

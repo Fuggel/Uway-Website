@@ -7,8 +7,8 @@ import Faq from "./Faq";
 import Features from "./Features";
 
 export default function Sections() {
-    const { ref: featuresRef, inView: featuresInView } = useInView({ threshold: 0.5 });
-    const { ref: faqRef, inView: faqInView } = useInView({ threshold: 0.5 });
+    const { ref: featuresRef, inView: featuresInView } = useInView({ threshold: 0.25 });
+    const { ref: faqRef, inView: faqInView } = useInView({ threshold: 0.25 });
 
     return (
         <>
@@ -17,7 +17,7 @@ export default function Sections() {
                     href="#features"
                     className={
                         featuresInView
-                            ? 'after:content-[" "] after:w-0.5 after:h-5 after:bg-foreground'
+                            ? 'after:content-[" "] after:h-[2px] after:bg-white after:block'
                             : "text-gray-200"
                     }
                 >
