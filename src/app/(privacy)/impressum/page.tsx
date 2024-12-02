@@ -7,6 +7,8 @@ export default function Impressum() {
             <p className="text-foregroundSecondary mb-6">
                 Furkan Ceylan
                 <br />
+                c/o IP-Management #3542
+                <br />
                 Ludwig-Erhard-Str. 18
                 <br />
                 20459 Hamburg
