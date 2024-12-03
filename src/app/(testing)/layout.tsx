@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Uway Testing",
+    title: "Uway | Testing",
     description: "Teste die neuesten Funktionen von Uway und hilf uns, die App zu verbessern!",
 };
 
