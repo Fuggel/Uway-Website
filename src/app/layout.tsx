@@ -1,3 +1,4 @@
+import ComingSoon from "@/components/ComingSoon";
 import Footer from "@/components/layouts/Footer";
 import ScrollToTop from "@/components/layouts/ScrollToTop";
 import { latoBlack, latoBold, latoRegular } from "@/constants/fonts";
@@ -35,6 +36,7 @@ export default function RootLayout({
     return (
         <html lang="en" suppressHydrationWarning>
             <body className={`${latoBlack.variable} ${latoBold.variable} ${latoRegular.variable} antialiased`}>
+                <ComingSoon />
                 {children}
                 <ScrollToTop />
                 <Footer />

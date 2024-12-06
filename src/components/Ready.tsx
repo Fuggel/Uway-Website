@@ -21,6 +21,7 @@ export default function Ready() {
                         variant="outline"
                         size="lg"
                         className="w-40 rounded-3xl text-md font-bold border-foreground bg-primary hover:text-primary-foreground hover:bg-primary-dark"
+                        disabled
                     >
                         <FaApple />
                         iOS
@@ -30,6 +31,7 @@ export default function Ready() {
                         variant="outline"
                         size="lg"
                         className="w-40 rounded-3xl text-md font-bold border-foreground bg-primary hover:text-primary-foreground hover:bg-primary-dark"
+                        disabled
                     >
                         <FaAndroid />
                         Android

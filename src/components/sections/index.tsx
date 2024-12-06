@@ -12,7 +12,7 @@ export default function Sections() {
 
     return (
         <>
-            <div className="sticky top-0 flex justify-center gap-10 py-4 bg-primary h-[55px] z-[999999]">
+            <div className="blurred-div sticky top-0 flex justify-center gap-10 py-4 h-[55px] z-[999999]">
                 <Link
                     href="#features"
                     className={

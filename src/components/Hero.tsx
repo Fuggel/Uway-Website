@@ -31,6 +31,7 @@ export default function Hero() {
                                 variant="outline"
                                 size="lg"
                                 className="w-40 rounded-3xl text-md font-bold border-foreground bg-transparent hover:bg-primary hover:text-primary-foreground"
+                                disabled
                             >
                                 <FaApple />
                                 iOS
@@ -40,6 +41,7 @@ export default function Hero() {
                                 variant="outline"
                                 size="lg"
                                 className="w-40 rounded-3xl text-md font-bold border-foreground bg-transparent hover:bg-primary hover:text-primary-foreground"
+                                disabled
                             >
                                 <FaAndroid />
                                 Android
