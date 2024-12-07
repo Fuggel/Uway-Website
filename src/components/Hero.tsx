@@ -52,11 +52,13 @@ export default function Hero() {
 
                 <div className="mx-auto mb-10">
                     <Image
-                        src="/hero-app-screenshots.png"
+                        src="/hero.png"
                         alt="Uway Screenshots"
-                        width={500}
+                        width={550}
                         height={700}
                         quality={100}
+                        className="w-[450px] md:w-[550px]"
+                        sizes="(max-width: 640px) 450px, 550px"
                     />
                 </div>
             </div>

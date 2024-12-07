@@ -24,9 +24,11 @@ export default function Features({ ref }: FeaturesProps) {
                             <Image
                                 src="/incident-info.png"
                                 alt="Verkehrsdaten"
-                                quality={100}
                                 width={350}
                                 height={350}
+                                quality={100}
+                                className="w-[300px] md:w-[350px]"
+                                sizes="(max-width: 640px) 300px, 350px"
                             />
                         </Blurring>
 
@@ -45,9 +47,11 @@ export default function Features({ ref }: FeaturesProps) {
                             <Image
                                 src="/speed-camera-info.png"
                                 alt="Blitzerwarnungen"
-                                quality={100}
                                 width={350}
                                 height={350}
+                                quality={100}
+                                className="w-[300px] md:w-[350px]"
+                                sizes="(max-width: 640px) 300px, 350px"
                             />
                         </Blurring>
 
@@ -65,9 +69,11 @@ export default function Features({ ref }: FeaturesProps) {
                             <Image
                                 src="/gas-station-info.png"
                                 alt="Tankstellenpreise"
-                                quality={100}
                                 width={350}
                                 height={350}
+                                quality={100}
+                                className="w-[300px] md:w-[350px]"
+                                sizes="(max-width: 640px) 300px, 350px"
                             />
                         </Blurring>
 
