@@ -13,8 +13,8 @@ export default function Navbar() {
                         height={125}
                         quality={100}
                         unoptimized
-                        className="w-[100px] md:w-[125px]"
-                        sizes="(max-width: 640px) 100px, 125px"
+                        className="w-[125px] md:w-[125px]"
+                        sizes="(max-width: 640px) 125px, 125px"
                     />
                 </Link>
             </div>
