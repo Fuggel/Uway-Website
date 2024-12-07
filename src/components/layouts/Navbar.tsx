@@ -12,6 +12,7 @@ export default function Navbar() {
                         width={125}
                         height={125}
                         quality={100}
+                        unoptimized
                         className="w-[100px] md:w-[125px]"
                         sizes="(max-width: 640px) 100px, 125px"
                     />

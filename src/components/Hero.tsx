@@ -57,6 +57,7 @@ export default function Hero() {
                         width={550}
                         height={700}
                         quality={100}
+                        unoptimized
                         className="w-[450px] md:w-[550px]"
                         sizes="(max-width: 640px) 450px, 550px"
                     />

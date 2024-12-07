@@ -36,7 +36,7 @@ export default function ScrollToTop() {
                 transition: "opacity 0.3s ease, transform 0.3s ease",
             }}
         >
-            <Image src="/uway-arrow.png" alt="Uway Pfeil" width={25} height={25} quality={100} />
+            <Image src="/uway-arrow.png" alt="Uway Pfeil" width={25} height={25} quality={100} unoptimized />
         </Button>
     );
 }

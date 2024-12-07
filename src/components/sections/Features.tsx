@@ -27,8 +27,9 @@ export default function Features({ ref }: FeaturesProps) {
                                 width={350}
                                 height={350}
                                 quality={100}
-                                className="w-[300px] md:w-[350px]"
-                                sizes="(max-width: 640px) 300px, 350px"
+                                unoptimized
+                                className="w-[350px] md:w-[350px]"
+                                sizes="(max-width: 640px) 350px, 350px"
                             />
                         </Blurring>
 
@@ -50,8 +51,9 @@ export default function Features({ ref }: FeaturesProps) {
                                 width={350}
                                 height={350}
                                 quality={100}
-                                className="w-[300px] md:w-[350px]"
-                                sizes="(max-width: 640px) 300px, 350px"
+                                unoptimized
+                                className="w-[350px] md:w-[350px]"
+                                sizes="(max-width: 640px) 350px, 350px"
                             />
                         </Blurring>
 
@@ -72,8 +74,9 @@ export default function Features({ ref }: FeaturesProps) {
                                 width={350}
                                 height={350}
                                 quality={100}
-                                className="w-[300px] md:w-[350px]"
-                                sizes="(max-width: 640px) 300px, 350px"
+                                unoptimized
+                                className="w-[350px] md:w-[350px]"
+                                sizes="(max-width: 640px) 350px, 350px"
                             />
                         </Blurring>
 
