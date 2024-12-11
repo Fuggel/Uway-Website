@@ -8,7 +8,7 @@ interface FeaturesProps {
 
 export default function Features({ ref }: FeaturesProps) {
     return (
-        <section id="features" ref={ref} className="mt-10 mb-20 px-4 scroll-mt-[65px]">
+        <section id="features" ref={ref} className="mt-10 mb-20 px-4 scroll-mt-[65px] mx-auto w-[90%] md:w-4/5">
             <div className="w-full max-w-6xl mx-auto">
                 <div className="flex flex-col items-center gap-4 mx-auto mb-10">
                     <h2 className="text-3xl font-bold text-center">Features</h2>

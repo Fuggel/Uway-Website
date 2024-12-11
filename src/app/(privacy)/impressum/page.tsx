@@ -1,6 +1,6 @@
 export default function Impressum() {
     return (
-        <div className="mt-10 mb-20 px-4 max-w-6xl mx-auto">
+        <div className="mt-10 mb-20 px-4 max-w-6xl mx-auto w-[90%] md:w-4/5">
             <h1 className="text-3xl font-bold mb-4">Impressum</h1>
 
             <p className="mb-2">Angaben gemäß § 5 TMG:</p>

@@ -4,7 +4,7 @@ import { Button } from "./ui/Button";
 
 export default function Ready() {
     return (
-        <section className="mt-10 mb-20 px-4 scroll-mt-[65px]">
+        <section className="mt-10 mb-20 px-4 scroll-mt-[65px] mx-auto w-[90%] md:w-4/5">
             <div className="w-full max-w-6xl mx-auto bg-primary p-10 rounded-3xl">
                 <div className="flex flex-col items-center gap-4 mx-auto mb-6">
                     <h2 className="text-3xl font-bold text-center">Bereit für eine stressfreiere Fahrt?</h2>
