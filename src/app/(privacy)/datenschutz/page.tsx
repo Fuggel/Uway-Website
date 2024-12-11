@@ -16,7 +16,7 @@ export default function Privacy() {
                     href="https://creativecommons.tankerkoenig.de/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-primary hover:underline"
+                    className="hover:underline"
                 >
                     Tankerkoenig
                 </Link>
