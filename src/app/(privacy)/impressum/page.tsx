@@ -19,7 +19,7 @@ export default function Impressum() {
 
             <p className="mb-2">Kontakt:</p>
             <p className="text-foregroundSecondary">
-                Telefon: +49 (0) 163 384 908 0
+                Telefon: +49 (0) 176 775 451 95
                 <br />
                 E-Mail:{" "}
                 <a href="mailto:info@uwaygo.com" className="text-primary hover:underline">
