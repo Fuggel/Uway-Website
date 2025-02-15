@@ -87,8 +87,12 @@ export default function Privacy() {
             <h2 className="text-2xl font-semibold mb-4">Kontakt</h2>
             <p className="text-foregroundSecondary leading-relaxed">
                 Wenn Sie Fragen zu dieser Datenschutzerklärung haben, können Sie uns per E-Mail kontaktieren:{" "}
-                <Link href="mailto:info@uwaygo.com" rel="noopener noreferrer" className="text-primary hover:underline">
-                    info@uwaygo.com
+                <Link
+                    href="mailto:f.ceylan@uwaygo.com"
+                    rel="noopener noreferrer"
+                    className="text-primary hover:underline"
+                >
+                    f.ceylan@uwaygo.com
                 </Link>
                 .
             </p>

@@ -22,8 +22,8 @@ export default function Impressum() {
                 Telefon: +49 (0) 176 775 451 95
                 <br />
                 E-Mail:{" "}
-                <a href="mailto:info@uwaygo.com" className="text-primary hover:underline">
-                    info@uwaygo.com
+                <a href="mailto:f.ceylan@uwaygo.com" className="text-primary hover:underline">
+                    f.ceylan@uwaygo.com
                 </a>
             </p>
         </div>

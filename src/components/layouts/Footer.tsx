@@ -6,7 +6,7 @@ export default function Footer() {
         <footer className="border-t-primary border-t-4 py-8">
             <div className="container mx-auto flex flex-wrap justify-evenly items-center px-4 gap-6">
                 <div className="order-1 flex space-x-4">
-                    <Link href="mailto:info@uwaygo.com" rel="noopener noreferrer">
+                    <Link href="mailto:f.ceylan@uwaygo.com" rel="noopener noreferrer">
                         <FaEnvelope className="text-2xl hover:text-secondary transition-all duration-200 ease-in-out" />
                     </Link>
                     <Link href="https://www.instagram.com/uwaygo/" target="_blank" rel="noopener noreferrer">
