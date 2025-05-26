@@ -1,6 +1,7 @@
 import Footer from "@/components/layouts/Footer";
 import ScrollToTop from "@/components/layouts/ScrollToTop";
 import { latoBlack, latoBold, latoRegular } from "@/constants/fonts";
+import { Analytics } from "@vercel/analytics/next";
 import type { Metadata } from "next";
 
 import "./globals.css";
@@ -38,6 +39,7 @@ export default function RootLayout({
                 {children}
                 <ScrollToTop />
                 <Footer />
+                <Analytics />
             </body>
         </html>
     );
